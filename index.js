@@ -3,7 +3,7 @@ const Notification = props => {
   const containerClassName = `notifications-container ${className}`
   return(
     <div className = {containerClassName}>
-      <img className = "icon" src = {url}></img>
+      <img className = "icon" src = {url}/>
       <p className = "para-color ">{message}</p>
     </div>
   )
@@ -16,19 +16,19 @@ const element = (
       <Notification 
       className = "primay-bg-container"
       url = "https://assets.ccbp.in/frontend/react-js/primary-icon-img.png"
-      message = "Information Message"></Notification>
+      message = "Information Message"/>
       <Notification 
       className = "success-bg-container"
       url = "https://assets.ccbp.in/frontend/react-js/success-icon-img.png"
-      message = "Success Message"></Notification>
+      message = "Success Message"/>
       <Notification 
       className = "warning-bg-container"
       url = "https://assets.ccbp.in/frontend/react-js/warning-icon-img.png"
-      message = "Warning Message"></Notification>
+      message = "Warning Message"/>
       <Notification 
       className = "error-bg-container"
       url = "https://assets.ccbp.in/frontend/react-js/danger-icon-img.png"
-      message = "Error Message"></Notification>
+      message = "Error Message"/>
     </div>
   </div> 
 )
