@@ -1,1 +1,55 @@
-/* Write your code here. */
+*{
+    margin:0;
+    border-style: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    color: #0f172a;
+    font-family: Roboto;
+    font-size: 38px;
+}
+.notifications-container{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding:10px 60px;
+    margin: 20px;
+}
+.primay-bg-container{
+    background-color: #0b69ff;
+}
+.success-bg-container{
+    background-color: #2dca73;
+}
+.warning-bg-container{
+    background-color: #ffb800;
+}
+.error-bg-container{
+    background-color: #ff0b37;
+}
+.para-color{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    padding:0 0 0 20px;
+}
+.icon{
+    width:20px;
+}
+
+@media screen and (max-width:576px) {
+    .heading{
+        margin: 20px 0 0 20px;
+    }
+    .container{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
